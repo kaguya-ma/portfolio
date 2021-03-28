@@ -1,0 +1,106 @@
+@font-face {
+	font-family: RobotoThin;
+	src: url("fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+	font-family: RobotoMedium;
+	src: url("fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+	font-family: RobotoRegular;
+	src: url("fonts/Roboto-Regular.ttf");
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	max-width: 900px;
+	margin: 0 auto;
+	font-family: RobotoThin, sans-serif;
+}
+
+.navigation-items {
+	display: flex;
+	list-style-type: none;
+	padding: 0 10px;
+	align-items: center;
+	margin-left: auto;
+
+}
+
+.navigation-item {
+	padding: 0 10px;
+}
+
+.navigation-item a {
+	text-decoration: none;
+	color: black;
+}
+
+.navigation-item a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+}
+
+ul {
+	display: block;
+   
+}
+
+nav {
+	display: flex;
+	padding: 16px 0;
+}
+
+.about-me-container {
+	display: flex;
+}
+
+.about-me-text-container {
+	margin-right: 10px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+img {
+	border-radius: 12px;
+	width: 300px;
+}
+
+#about-me {
+	padding: 16px 0;
+}
+
+i {
+	padding: 0 10px;
+}
+
+details {
+	display: block;
+}
+
+summary {
+	display: list-item;
+	counter-increment: list-item 0;
+	list-style: inside disclosure-closed;
+}
+
+h3 {
+	display: inline;
+}
+
+h2 {
+	font-family: RobotoMedium, sans-serif;
+}
+
+a {
+	font-family: RobotoRegular, sans-serif;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+}
