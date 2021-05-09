@@ -60,14 +60,15 @@ nav {
 }
 
 .about-me-text-container {
-	margin-right: 10px;
+	margin-right: 25px;
 	text-align: justify;
-	text-justify: inter-word;
 }
 
 img {
 	border-radius: 12px;
 	width: 300px;
+	margin-top: 35px;
+
 }
 
 #about-me {
