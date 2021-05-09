@@ -16,7 +16,6 @@
 body {
 	display: flex;
 	flex-direction: column;
-	max-width: 900px;
 	margin: 0 auto;
 	font-family: RobotoThin, sans-serif;
 }
@@ -24,7 +23,6 @@ body {
 .navigation-items {
 	display: flex;
 	list-style-type: none;
-	padding: 0 10px;
 	align-items: center;
 	margin-left: auto;
 
@@ -53,10 +51,6 @@ ul {
 nav {
 	display: flex;
 	padding: 16px 0;
-}
-
-.about-me-container {
-	display: flex;
 }
 
 .about-me-text-container {
@@ -108,4 +102,84 @@ footer {
 
 .icon-a {
 	color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	body {
+		max-width: 530px;
+	}
+	.navigation-items {
+		font-size: 12px;
+		text-transform: uppercase;
+		padding: 0 5px;
+	}
+	img {
+		display: none;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	body {
+		max-width: 580px;
+	}
+	.navigation-items {
+		font-size: 12px;
+		text-transform: uppercase;
+		padding: 0 5px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	body {
+		max-width: 760px;
+	}
+	img {
+		height: fit-content;
+		width: 40%;
+	}
+	.about-me-container {
+		display: flex;
+	}
+	.navigation-items {
+		font-size: inherit;
+		text-transform: capitalize;
+		padding: 0 10px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	body {
+		max-width: 800px;
+	}
+	img {
+		height: fit-content;
+		width: 40%;
+	}
+	.about-me-container {
+		display: flex;
+	}
+	.navigation-items {
+		font-size: inherit;
+		text-transform: capitalize;
+		padding: 0 10px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	body {
+		max-width: 900px;
+	}
+	.about-me-container {
+		display: flex;
+	}
+	.navigation-items {
+		font-size: inherit;
+		text-transform: capitalize;
+		padding: 0 10px;
+	}
 }
