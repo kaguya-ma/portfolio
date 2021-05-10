@@ -18,6 +18,7 @@ body {
 	flex-direction: column;
 	margin: 0 auto;
 	font-family: RobotoThin, sans-serif;
+	background-color: gainsboro;
 }
 
 .navigation-items {
